@@ -1,0 +1,87 @@
+# ldap/backupusers.ldif
+
+# Entry 1: ou=users,dc=mycompany,dc=com
+dn: ou=users,dc=mycompany,dc=com
+objectclass: organizationalUnit
+objectclass: top
+ou: users
+
+# Entry 2: uid=yeyintoo,ou=users,dc=mycompany,dc=com
+dn: uid=yeyintoo,ou=users,dc=mycompany,dc=com
+cn: Ye Yint Oo
+gidnumber: 1000
+givenname: Ye Yint
+homedirectory: /home/yeyintoo
+mail: yeyintoo@mycompany.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: top
+sn: Oo
+uid: yeyintoo
+uidnumber: 1001
+userpassword: {SSHA}hashedpassword456
+
+# Entry 3: uid=myatshwesoe,ou=users,dc=mycompany,dc=com
+dn: uid=myatshwesoe,ou=users,dc=mycompany,dc=com
+cn: Myat Shwe Soe
+gidnumber: 1000
+givenname: Myat Shwe
+homedirectory: /home/myatshwesoe
+mail: myatshwesoe@mycompany.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: top
+sn: Soe
+uid: myatshwesoe
+uidnumber: 1000
+userpassword: {SSHA}hashedpassword123
+
+# Entry 4: uid=sawtintkyaw,ou=users,dc=mycompany,dc=com
+dn: uid=sawtintkyaw,ou=users,dc=mycompany,dc=com
+cn: Saw Tint Kyaw
+gidnumber: 1000
+givenname: Saw Tint
+homedirectory: /home/sawtintkyaw
+mail: sawtintkyaw@mycompany.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: top
+sn: Kyaw
+uid: sawtintkyaw
+uidnumber: 1002
+userpassword: {SSHA}hashedpassword789
+
+# Entry 5: uid=thetzawmin,ou=users,dc=mycompany,dc=com
+dn: uid=thetzawmin,ou=users,dc=mycompany,dc=com
+cn: Thet Zaw Min
+gidnumber: 1000
+givenname: Thet Zaw
+homedirectory: /home/thetzawmin
+mail: thetzawmin@mycompany.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: top
+sn: Min
+uid: thetzawmin
+uidnumber: 1003
+userpassword: {SSHA}hashedpasswordabc
+
+# Entry 6: uid=yehtetzaw,ou=users,dc=mycompany,dc=com
+dn: uid=yehtetzaw,ou=users,dc=mycompany,dc=com
+cn: Ye Htet Zaw
+gidnumber: 1000
+givenname: Ye Htet
+homedirectory: /home/yehtetzaw
+mail: yehtetzaw@mycompany.com
+objectclass: inetOrgPerson
+objectclass: posixAccount
+objectclass: shadowAccount
+objectclass: top
+sn: Zaw
+uid: yehtetzaw
+uidnumber: 1004
+userpassword: {SSHA}hashedpassworddef

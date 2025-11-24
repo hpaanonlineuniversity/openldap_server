@@ -1,0 +1,21 @@
+dn: cn=custom,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: custom
+olcAttributeTypes: ( 1.3.6.1.4.1.4203.666.100.1
+  NAME 'employeeID'
+  DESC 'Employee identification number'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.4203.666.100.2
+  NAME 'department'
+  DESC 'Employee department'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+olcAttributeTypes: ( 1.3.6.1.4.1.4203.666.100.3
+  NAME 'jobTitle'
+  DESC 'Employee job title'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )

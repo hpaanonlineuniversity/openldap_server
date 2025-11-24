@@ -1,0 +1,9 @@
+dn: cn=mycompany,cn=schema,cn=config
+objectClass: olcSchemaConfig
+cn: mycompany
+olcObjectClasses: ( 1.3.6.1.4.1.4203.666.100.4
+  NAME 'myCompanyUser'
+  DESC 'My Company User'
+  SUP inetOrgPerson
+  STRUCTURAL
+  MAY ( employeeID $ department $ jobTitle ) )
