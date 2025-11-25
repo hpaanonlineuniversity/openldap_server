@@ -1,3 +1,4 @@
+# user_objectclass.ldif
 
 dn: cn=mycompany,cn=schema,cn=config
 objectClass: olcSchemaConfig

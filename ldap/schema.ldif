@@ -1,3 +1,4 @@
+# schema.ldif
 
 dn: cn=custom,cn=schema,cn=config
 objectClass: olcSchemaConfig

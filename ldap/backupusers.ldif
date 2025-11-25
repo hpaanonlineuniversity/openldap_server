@@ -16,11 +16,16 @@ mail: yeyintoo@mycompany.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: shadowAccount
+objectclass: myCompanyUser
 objectclass: top
 sn: Oo
 uid: yeyintoo
 uidnumber: 1001
 userpassword: {SSHA}hashedpassword456
+isAdmin: TRUE
+CreateAt: 20240101000000Z
+UpdateAt: 20240102000000Z
+profilePicture: https://mycompany.com/profiles/yeyintoo.jpg
 
 # Entry 3: uid=myatshwesoe,ou=users,dc=mycompany,dc=com
 dn: uid=myatshwesoe,ou=users,dc=mycompany,dc=com
@@ -32,11 +37,16 @@ mail: myatshwesoe@mycompany.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: shadowAccount
+objectclass: myCompanyUser
 objectclass: top
 sn: Soe
 uid: myatshwesoe
 uidnumber: 1000
 userpassword: {SSHA}hashedpassword123
+isAdmin: FALSE
+CreateAt: 20240101000000Z
+UpdateAt: 20240103000000Z
+profilePicture: https://mycompany.com/profiles/myatshwesoe.jpg
 
 # Entry 4: uid=sawtintkyaw,ou=users,dc=mycompany,dc=com
 dn: uid=sawtintkyaw,ou=users,dc=mycompany,dc=com
@@ -48,11 +58,16 @@ mail: sawtintkyaw@mycompany.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: shadowAccount
+objectclass: myCompanyUser
 objectclass: top
 sn: Kyaw
 uid: sawtintkyaw
 uidnumber: 1002
 userpassword: {SSHA}hashedpassword789
+isAdmin: FALSE
+CreateAt: 20240102000000Z
+UpdateAt: 20240104000000Z
+profilePicture: https://mycompany.com/profiles/sawtintkyaw.jpg
 
 # Entry 5: uid=thetzawmin,ou=users,dc=mycompany,dc=com
 dn: uid=thetzawmin,ou=users,dc=mycompany,dc=com
@@ -64,11 +79,16 @@ mail: thetzawmin@mycompany.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: shadowAccount
+objectclass: myCompanyUser
 objectclass: top
 sn: Min
 uid: thetzawmin
 uidnumber: 1003
 userpassword: {SSHA}hashedpasswordabc
+isAdmin: TRUE
+CreateAt: 20240103000000Z
+UpdateAt: 20240105000000Z
+profilePicture: https://mycompany.com/profiles/thetzawmin.jpg
 
 # Entry 6: uid=yehtetzaw,ou=users,dc=mycompany,dc=com
 dn: uid=yehtetzaw,ou=users,dc=mycompany,dc=com
@@ -80,8 +100,13 @@ mail: yehtetzaw@mycompany.com
 objectclass: inetOrgPerson
 objectclass: posixAccount
 objectclass: shadowAccount
+objectclass: myCompanyUser
 objectclass: top
 sn: Zaw
 uid: yehtetzaw
 uidnumber: 1004
 userpassword: {SSHA}hashedpassworddef
+isAdmin: FALSE
+CreateAt: 20240104000000Z
+UpdateAt: 20240106000000Z
+profilePicture: https://mycompany.com/profiles/yehtetzaw.jpg
