@@ -9,7 +9,6 @@ RUN mkdir -p /container/service/slapd/assets/config/bootstrap/ldif
 
 # Copy custom schema files
 COPY ./ldap/schema.ldif /container/service/slapd/assets/config/bootstrap/schema/100-user_schema.ldif
-COPY ./ldap/user_objectclass.ldif /container/service/slapd/assets/config/bootstrap/schema/101-user_objectclass.ldif
 
 # Copy backup users to bootstrap ldif directory (it will be processed automatically)
 COPY ./ldap/backupusers.ldif /container/service/slapd/assets/config/bootstrap/ldif/50-backupusers.ldif

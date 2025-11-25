@@ -29,3 +29,9 @@ olcAttributeTypes: ( 1.3.6.1.4.1.4203.666.100.4
   ORDERING generalizedTimeOrderingMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.24
   SINGLE-VALUE )  
+olcObjectClasses: ( 1.3.6.1.4.1.4203.666.100.5
+  NAME 'exampleUser'
+  DESC 'My Company User'
+  SUP inetOrgPerson
+  STRUCTURAL
+  MAY ( profilePicture $ isAdmin $ CreateAt $ UpdateAt ) )
